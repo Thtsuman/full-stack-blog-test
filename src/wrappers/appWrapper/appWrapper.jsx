@@ -1,5 +1,5 @@
-import { ImageKitProvider } from '@imagekit/react'
 import React from 'react'
+import { ImageKitProvider } from '@imagekit/react'
 
 export const AppWrapper = ({ children }) => {
   return (
