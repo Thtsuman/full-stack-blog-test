@@ -49,7 +49,7 @@ export const Navbar = () => {
       {/* menu modal */}
       <div className={
         createClassNames("w-full h-screen flex flex-col items-center justify-center absolute top-16 bg-red-300 transition-all ease-in-out",
-          openMenu ? '-right-0' : "-right-[100%]"
+          openMenu ? '-right-0 block' : "-right-[100%] hidden"
         )
       }>
         {renderMenu({ isMobile: true })}
